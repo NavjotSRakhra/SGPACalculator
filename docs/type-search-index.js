@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"navjot.sgpaCalculator","l":"CalculateSGPA"},{"p":"navjot.sgpaCalculator.grade","l":"Grade"},{"p":"navjot.sgpaCalculator.subject","l":"SubjectGradeList"}]
