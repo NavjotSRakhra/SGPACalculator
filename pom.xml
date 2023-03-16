@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>io.github.NavjotSRakhra</groupId>
+    <groupId>g</groupId>
     <artifactId>SGPACalculator</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
@@ -12,7 +12,7 @@
         stored in SubjectGradeList. It can also be used just to store subject grade and the corresponding credits. This
         also has 11 enums which represents grades.
     </description>
-    <url>http://maven.apache.org</url>
+    <url>https://github.com/NavjotSRakhra/SGPACalculator</url>
 
     <scm>
         <connection>scm:git:git://github.com/NavjotSRakhra/SGPACalculator.git</connection>
