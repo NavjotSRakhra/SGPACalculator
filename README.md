@@ -1,5 +1,7 @@
 # SGPACalculator
 
+![Test cases](https://github.com/NavjotSRakhra/SGPACalculator/actions/workflows/maven.yml/badge.svg) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.github.NavjotSRakhra/SGPACalculator/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.github.NavjotSRakhra/SGPACalculator) [![javadoc](https://javadoc.io/badge2/io.github.NavjotSRakhra/SGPACalculator/javadoc.svg)](https://javadoc.io/doc/io.github.NavjotSRakhra/SGPACalculator)
+
 This module primarily is used to calculate SGPA of a list of subjects with their grades and credits stored in
 SubjectGradeList. It can also be used just to store subject grade and the corresponding credits. This also has 11 enums
 which represents grades.
