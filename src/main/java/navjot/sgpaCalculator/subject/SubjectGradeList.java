@@ -2,6 +2,7 @@ package navjot.sgpaCalculator.subject;
 
 import navjot.sgpaCalculator.grade.Grade;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -11,7 +12,7 @@ import java.util.List;
  * @author Navjot Singh Rakhra
  * @version 1.0
  */
-public class SubjectGradeList {
+public class SubjectGradeList implements Serializable {
     private final List<Grade> subjectGradeList;
     private final List<Integer> subjectCredits;
 
@@ -108,5 +109,15 @@ public class SubjectGradeList {
      */
     public int getCreditsAt(int i) {
         return subjectCredits.get(i);
+    }
+
+    /**
+     * returns the {@link Grade} enum value set at index i
+     *
+     * @param i index of the subject whose grade value is to be returned
+     * @return the {@link Grade} enum value set at index i
+     */
+    public Grade getGradeAt(int i) {
+        return subjectGradeList.get(i);
     }
 }
